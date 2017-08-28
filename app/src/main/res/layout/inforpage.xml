@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:background="#8bceda"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="相关文档"
+        android:textSize="25dp"
+        android:textColor="#fff"
+        android:gravity="center"/>
+
+      <ListView
+          android:id="@+id/aboutissue"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+      </ListView>
+
+
+
+</LinearLayout>

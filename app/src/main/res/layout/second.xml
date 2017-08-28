@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/t1"
+        android:text="相关案例一"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/t2"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="相关案例二"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/t3"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="相关案例三"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+</LinearLayout>
